@@ -55,38 +55,12 @@ console.log('Listening on: http://localhost:8080');
 //  ----- how do i call a function in node?
 // rollDice = () => {
 //     let num = Math.floor(Math.random() * 6 +1);
-//     if (0 < num < 1) {
-//         num = 1;
-//         response.write(`Sorry, you've rolled a ${num} and lost`)
-//         response.end()
-//         return; 
-//     }
-//     if (1 < num < 2) {
-//         num = 2;
-//         response.write(`Sorry, you've rolled a ${num} and lost`)
-//         response.end()
-//         return;
-//     }
-//     if (2 < num < 3) {
-//         num = 3;
-//         response.write(`Sorry, you've rolled a ${num} and lost`)
-//         response.end()
-//         return;
-//     }
-//     if (3 < num < 4) {
-//         num = 4;
+
+//     if (num === 4) {
 //         response.write(`You've rolled a ${num} and that's the winning number!`)
 //         response.end()
 //         return;
-//     }
-//     if (4 < num < 5) {
-//         num = 5;
-//         response.write(`Sorry, you've rolled a ${num} and lost`)
-//         response.end()
-//         return;
-//     }
-//     if (5 < num < 6) {
-//         num = 6;
+//     } else {
 //         response.write(`Sorry, you've rolled a ${num} and lost`)
 //         response.end()
 //         return;
