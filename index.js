@@ -25,6 +25,8 @@ if (request.url === '/write') {
         response.end();
     });
 } else if (request.url === '/dice') {
+    // const rollDice = rollDice(); //different attempts at this problem
+    // response.write({rollDice});  //different attempts at this problem
             const num = Math.floor(Math.random() * 6 + 1);
         if (num === 4) {
             response.write(`${num} is the winning number!`);
