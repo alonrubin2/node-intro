@@ -36,7 +36,6 @@ if (request.url === '/write') {
             response.write(`You've got a ${num}. you lost:(`);
             response.end();
         }
-        response.end();
     } 
 
     
